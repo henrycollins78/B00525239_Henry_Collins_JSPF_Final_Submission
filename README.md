@@ -19,6 +19,8 @@ The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupl
 | ```menuScene```   | ```country.env```|
 | ```gameScene```   | ```floor.png```, ```crate.png```|
 
-## Mechanics
+## Coding Breakdown
 
-The mechanics of the game are more 
+### Collision Detection
+
+Within the source file of ```collisionDeclaration.ts```, Havok physics are integrated into the scene for handling collision detection and physics simulation. The collisionDeclaration function sets up a collision callback to log details about collisions, such as the collider's name, collision point, distance, impulse, and normal vector. Physics aggregates are created for the ground and two boxes, with properties like mass, restitution (bounciness), and friction defined for each. Collision detection is enabled for these aggregates. By using Havok Physics, the scene is set up for realistic object interactions and movement.
