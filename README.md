@@ -23,4 +23,4 @@ The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupl
 
 ### Collision Detection
 
-Within the source file of ```collisionDeclaration.ts```, Havok physics are integrated into the scene for handling collision detection and physics simulation. The collisionDeclaration function sets up a collision callback to log details about collisions, such as the collider's name, collision point, distance, impulse, and normal vector. Physics aggregates are created for the ground and game objects. Collision detection is enabled for these aggregates. By using Havok Physics, the scene is set up for realistic object interactions and movement.
+Within the source file of ```collisionDeclaration.ts```, Havok physics are integrated into the scene for handling collision detection and physics simulation. The collisionDeclaration function sets up a collision callback to log details about collisions, such as the collider's name, collision point, distance, impulse, and normal vector. Physics aggregates are created for the ground and game objects. Collision detection is enabled for these aggregates, enabling realistic object interactions and movement.
