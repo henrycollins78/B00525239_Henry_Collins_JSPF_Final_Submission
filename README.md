@@ -28,5 +28,3 @@ Within the source file of ```collisionDeclaration.ts```, Havok physics are integ
 ### Character Movement
 
 Within ```createRunScene.ts```, the player's animations (e.g., walking and idle) are added to the character's skeleton. Key presses (W, A, S, D, arrow keys) control the player's movement, updating position and rotation. The player's animation is toggled between walking and idle states based on directional movement.
-
-###
