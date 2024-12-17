@@ -5,7 +5,7 @@ Element 5 was developed using the foundational template of Element 4, which cont
 
 ### Main Menu
 
-For the user interface of Element 5, several aspects of the template were changed. The colour of the user interface buttons were changed to <span style="color:blue">blue *blue* text</span> to contrast with the background of the menu.
+For the user interface of Element 5, several aspects of the template were changed. The colour of the user interface buttons were changed to blue to contrast with the background of the menu. The background image, which uses a skybox, was also changed.
 
 
 ### Game Scene
@@ -18,3 +18,6 @@ The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupl
 | ----------- | ----------- |
 | menuScene   | ```country.env```|
 | gameScene   | ```floor.png```, ```crate.png```|
+---
+## Mechanics
+
