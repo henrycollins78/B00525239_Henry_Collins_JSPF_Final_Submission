@@ -9,7 +9,7 @@ The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupl
 
 ### Textures
 
-| Skybox      | Texture     |
+| Scene       | Texture     |
 | ----------- | ----------- |
-| Menu        | '''country.png''' |
-| Paragraph   | Text        |
+| menuScene   | ```country.env```|
+| gameScene   | ```floor.png```, ```crate.png```  |
