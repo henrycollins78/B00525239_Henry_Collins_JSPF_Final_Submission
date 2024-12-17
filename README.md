@@ -7,4 +7,9 @@ Element 5 was developed using the foundational template of Element 4, which cont
 
 The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupling it in size. The ground layer was changed to ```floor.png``` with its subdivisions altered, to ensure that the textures were not warped over the surface area.
 
-###
+### Textures
+
+| Skybox      | Texture     |
+| ----------- | ----------- |
+| Menu        | '''country.png''' |
+| Paragraph   | Text        |
