@@ -19,12 +19,12 @@ The ground was expanded in the ```gameScene.ts``` file across its axes, quadrupl
 | ```menuScene```   | ```country.env```|
 | ```gameScene```   | ```floor.png```, ```crate.png```|
 
-## Breakdown of Code
-
-### Collision Detection
-
-Within the source file of ```collisionDeclaration.ts```, Havok physics are integrated into the scene for handling collision detection and physics simulation. The collisionDeclaration function sets up a collision callback to log details about collisions. Physics aggregates are created for the ground and game objects. Collision detection is enabled for these aggregates, enabling realistic object interactions and movement.
+## Player Movement and Implementation of Havok Physics
 
 ### Character Movement
 
 Within ```createRunScene.ts```, the player's animations (e.g., walking and idle) are added to the character's skeleton. Key presses (W, A, S, D, arrow keys) control the player's movement, updating position and rotation. The player's animation is toggled between walking and idle states based on directional movement.
+
+### Collision Detection
+
+Within the source file of ```collisionDeclaration.ts```, Havok physics are integrated into the scene for handling collision detection and physics simulation. The collisionDeclaration function sets up a collision callback to log details about collisions. Physics aggregates are created for the ground and game objects. Collision detection is enabled for these aggregates, enabling realistic object interactions and movement.
